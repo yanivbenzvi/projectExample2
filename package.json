@@ -1,0 +1,32 @@
+{
+  "name": "projectexample2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "mocha test/*.spec.js --color",
+    "lint": "eslint src/*.js --color",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanivbenzvi/projectExample2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanivbenzvi/projectExample2/issues"
+  },
+  "homepage": "https://github.com/yanivbenzvi/projectExample2#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "mocha": "^8.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
